@@ -15,10 +15,10 @@ import React, { Component } from 'react';
 import {
   View,
   Dimensions,
-  WebView,
   Platform,
 } from 'react-native';
 import PropTypes from "prop-types";
+import {WebView} from 'react-native-webview';
 
 const injectedScript = function() {
   function waitForBridge() {
